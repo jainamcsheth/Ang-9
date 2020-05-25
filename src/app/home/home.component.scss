@@ -1,0 +1,87 @@
+.home-image {
+  width: 100%;
+  object-fit: cover;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+.home-body {
+  z-index: 500;
+  position: relative;
+}
+
+.image-text {
+  top: 20%;
+  position: absolute;
+  font-family: monospace;
+  line-height: 1.5;
+  width: 100%;
+}
+
+.name {
+  font-size: 1.25rem;
+  margin-bottom: 5px;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-weight: bold;
+}
+
+.seperater {
+  margin: 0 auto 5px;
+  width: 200px;
+  border-top: 1px solid white;
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+}
+
+.article {
+  padding: 20px;
+  background: white;
+}
+
+.sec-head {
+  text-align: center;
+}
+
+.me-img {
+  margin-bottom: 1rem;
+}
+
+.about-me-desc {
+  font-family: Roboto;
+  font-size: 1rem;
+  text-align: justify;
+  color: #565656;
+  letter-spacing: 1.6px;
+}
+
+@media (min-width: 600px) {
+  .name {
+    font-size: 1.5rem;
+  }
+
+  .sec-body {
+    display: flex;
+    justify-content: space-evenly;
+
+    .me-img {
+      width: 45%;
+      height: 400px;
+      object-fit: contain;
+    }
+
+    .about-me-desc {
+      width: 45%;
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+    }
+  }
+}
+
+@media (min-width: 900px) {
+  .name {
+    font-size: 2rem;
+  }
+}

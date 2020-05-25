@@ -1,0 +1,25 @@
+.nav-main {
+  color: black;
+}
+
+.child {
+  padding: 0 0.5rem;
+}
+
+.active {
+  color: white;
+}
+
+.logo {
+  font-size: 1.25rem;
+}
+
+@media (min-width: 600px) {
+  .nav-main {
+    padding: 0 50px;
+  }
+
+  .logo {
+    font-size: 1.75rem;
+  }
+}

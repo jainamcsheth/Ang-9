@@ -1,0 +1,13 @@
+<mat-toolbar class="justify-between nav-main" color="primary">
+  <a [routerLink]="['/', 'home']">
+    <span class="child logo">Personal Blog</span>
+  </a>
+  <span>
+    <a [routerLink]="['/', 'home']" routerLinkActive="active">
+      <span class="child">Home</span>
+    </a>
+    <a [routerLink]="['/', 'posts']" routerLinkActive="active">
+      <span class="child">Posts</span>
+    </a>
+  </span>
+</mat-toolbar>

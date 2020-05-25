@@ -1,0 +1,51 @@
+.post-main {
+  padding: 20px;
+  background-color: lavender;
+}
+
+.recent-post-heading {
+  font-weight: 500;
+  text-align: center;
+  font-size: 2rem;
+  font-family: cursive;
+}
+
+.post-card {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 2px 0px,
+    rgba(0, 0, 0, 0.12) 0px 2px 4px 0px;
+  margin: 0 5px 20px;
+}
+
+.post-card:hover {
+  border: 1px solid #777;
+  cursor: pointer;
+}
+
+.post-desc {
+  font-size: 1.25rem;
+  text-align: center;
+  padding: 5px;
+  font-weight: 500;
+  font-family: fantasy;
+}
+
+.post-img {
+  max-height: 275px;
+  object-fit: cover;
+  width: 100%;
+  flex: 1;
+}
+
+@media (min-width: 568px) and (max-width: 992px) {
+  .post-card {
+    width: 47%;
+    margin: 0 1.5% 1.5%;
+  }
+}
+
+@media (min-width: 993px) {
+  .post-card {
+    width: 30%;
+    margin: 0 1.66% 1.66%;
+  }
+}

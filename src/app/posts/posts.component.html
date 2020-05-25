@@ -1,0 +1,13 @@
+<div class="post-main">
+  <div class="container">
+    <h1 class="recent-post-heading">
+      Recent Posts
+    </h1>
+    <div class="flex-row">
+      <div *cdkVirtualFor="let post of posts" class="post-card flex-col">
+        <img [src]="post.img" class="post-img" />
+        <div class="post-desc">{{ post.desc }}</div>
+      </div>
+    </div>
+  </div>
+</div>
