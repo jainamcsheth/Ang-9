@@ -17,6 +17,10 @@ const routes: Routes = [
     path: 'posts',
     component: PostsComponent,
   },
+  {
+    path: '**',
+    redirectTo: 'home',
+  },
 ];
 
 @NgModule({
